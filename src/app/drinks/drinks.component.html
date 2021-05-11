@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col-xs-12">
+        <h2> Drinks</h2>
+        <h3> Recipe inspiration for making everything from classic blends and mocktails to seasonal tipples and refreshing, fruity favourites.</h3>
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12" *ngFor="let drink of drinks">
+        <h5>{{drink.name}}</h5>
+        <img src="{{drink.imagePath}}" alt="{{drinks.name}}">
+    </div>
+</div>
